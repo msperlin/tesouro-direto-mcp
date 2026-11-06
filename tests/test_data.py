@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pytest
 
-from mcp_tesouro_direto import data
+from tesouro_direto_mcp import data
 
 FIXTURE = Path(__file__).parent / "fixtures" / "sample.csv"
 

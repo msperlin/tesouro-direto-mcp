@@ -60,8 +60,8 @@ BOND_SYMBOLS = {
 }
 
 USER_AGENT = (
-    "mcp-tesouro-direto/0.1.0 "
-    "(+https://github.com/msperlin/mcp-TesouroDireto)"
+    "tesouro-direto-mcp/0.1.0 "
+    "(+https://github.com/msperlin/tesouro-direto-mcp)"
 )
 
 
@@ -128,7 +128,7 @@ def cache_dir() -> Path:
     if env:
         path = Path(env).expanduser()
     else:
-        path = Path.home() / ".cache" / "mcp-tesouro-direto"
+        path = Path.home() / ".cache" / "tesouro-direto-mcp"
     path.mkdir(parents=True, exist_ok=True)
     return path
 

@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pytest
 
-from mcp_tesouro_direto import yield_curve
+from tesouro_direto_mcp import yield_curve
 
 FIXTURE = Path(__file__).parent / "fixtures" / "anbima.html"
 
